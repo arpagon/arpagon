@@ -1,0 +1,459 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Sebastian Rojo Suarez",
+    "label": "Open-Source Machine Learning Engineer, Co-Founder at ArtisanLabs  •  Senior Kubernetes Engineer • Edge Computing • Full Stack Dev • Remote work • Startups • COSS • SaaS",
+    "image": "",
+    "email": "linkedin@arpagon.co",
+    "phone": "573105030424",
+    "url": "https://arpagon.co",
+    "summary": "Hi, I'm Sebastian Rojo Founder at ArtisanLabs, ex-CTO and co-founder at RisePal, ex-CTO, former owner of Sapian, and founder of startup WunderComm. I'm part of Linux/Open Source revolutions. According to my ability and scope, I was an active player in my city's free software and Linux revolution. Now Linux and open source is state of the art in our technology World. For 15 years, I have created a team that believes in the freedom offered by new technologies, with which we have democratized simple solutions that empower hundreds of companies.\n\nI am passionate about evaluating new open-source technologies. As a result, I can quickly implement, integrate, and interoperate nascent technologies to assess their disruptive capacity and challenge the technological status quo. \n\nAfter 13 years of applying active learning and learning strategies, I have become a generalist CTO with many initiatives, always thinking about Innovation using analytical thinking, complex problem-solving, creativity, and originality.",
+    "location": {
+      "countryCode": "US",
+      "address": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "arpagon",
+        "url": "https://www.linkedin.com/in/arpagon/"
+      },
+      {
+        "network": "Twitter",
+        "username": "arpagon",
+        "url": "https://twitter.com/arpagon"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "ArtisanLabs",
+      "position": "Founder",
+      "startDate": "2023-05-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/artisanlabsai/"
+    },
+    {
+      "name": "WunderComm",
+      "position": "Founder, CEO, CTO",
+      "startDate": "2021-11-30",
+      "highlights": [],
+      "summary": "◾ CEO\n\nDefine the desired culture and cultivate it through leadership actions, including setting objectives, strategies, and critical results that prioritize culture-building and designing the organization and its operational processes to support and advance the company's purpose and core values.\n\nResponsible for talent acquisition strategy, especially for C-suite candidates Attracting and recruiting leadership talent, and Sustaining a healthy and productive workplace.\n\n◾ CTO\nTranslate business strategy into an architecture, technology, and roadmap; responsible for building and managing the engineering team, Directly contributing to making the product.",
+      "url": "https://www.linkedin.com/company/wundercomm/",
+      "location": "Medellín, Antioquia, Colombia"
+    },
+    {
+      "name": "RisePal",
+      "position": "CTO",
+      "startDate": "2023-03-31",
+      "endDate": "2023-10-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/risepal/"
+    },
+    {
+      "name": "Sapian S.A.S",
+      "position": "Chief Technology Officer",
+      "startDate": "2009-10-31",
+      "endDate": "2022-06-30",
+      "highlights": [],
+      "summary": "Leader of the Service Design And Experience, Design Thinker.\n\n◾Achievements\n\nthe technical team I assembled, we collaboratively designed, developed, and scaled a company that created open-source products for real-time communication, achieving an impressive 374K USD in Annual Recurring Revenue\n\n◾Mission Statement\n\nInspire and lead through his vision and experience in Information and Communication Technologies to help build not only the present but also the future of the organization. Responsible for the company's use of technology to add value to its processes and products in its relationship with its customers and suppliers. In other words, he must have an integral vision of the company, its aspirations, and its limitations to innovate through ICT and lead the company towards its future. In agreement with the CEO, he sets the strategic objectives regarding technology and must assume a compromise between audacity and security.\n\n\n◾ Strategic Leadership\n\nLead the ideation, generation, and execution of the company's strategy. Ensure that the company has a clear and attainable strategic vision and that all organization members are aware of and working towards that vision. Develop and implement strategies and plans to achieve short- and long-term financial and operational goals. Monitor and adjust strategy as needed in response to internal and external environment changes. Oversee the development and implementation of processes and systems to support the execution of the company's strategy. Finally, regularly review the company's performance against its strategic goals and objectives and take corrective action as needed.",
+      "url": "https://www.linkedin.com/company/sapian/",
+      "location": "Colombia"
+    },
+    {
+      "name": "dataware sistemas",
+      "position": "Telecommunications Specialist",
+      "startDate": "2007-06-30",
+      "endDate": "2009-09-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/dataware-sistemas/"
+    },
+    {
+      "name": "Dataware Sistemas",
+      "position": "Project Engineer",
+      "startDate": "2007-06-30",
+      "endDate": "2009-09-30",
+      "highlights": [],
+      "summary": "Development of new technology-based products, advice on integration of unified communications. Developing and implementing projects in the telecommunications sector.",
+      "url": "https://www.linkedin.com/company/dataware-sistemas/"
+    },
+    {
+      "name": "uniredes",
+      "position": "Telecommunications Engineer",
+      "startDate": "2007-01-31",
+      "endDate": "2007-06-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/uniredes/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad Santo Tomás",
+      "area": "Telecommunications Engineering",
+      "studyType": "Engineer's degree",
+      "startDate": "2001-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Data Management and Visualization",
+      "issuer": "Coursera Course Certificates",
+      "startDate": "2015-11-30",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8VY7QFAVXSF4"
+    },
+    {
+      "name": "Regression Modeling in Practice",
+      "issuer": "Coursera Course Certificates",
+      "startDate": "2016-02-28",
+      "url": "https://www.coursera.org/account/accomplishments/verify/RTZ4ET7JV8FF"
+    },
+    {
+      "name": "Data Management and Visualization",
+      "issuer": "Coursera Course Certificates",
+      "startDate": "2015-11-30",
+      "url": "https://www.coursera.org/account/accomplishments/verify/8VY7QFAVXSF4"
+    },
+    {
+      "name": "Data Analysis Tools",
+      "issuer": "Coursera Course Certificates",
+      "startDate": "2016-01-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/AR55MQJRDSEU"
+    },
+    {
+      "name": "Digium Certified Asterisk Professional (dCAP)",
+      "issuer": "Digium",
+      "startDate": "2007-09-30",
+      "url": "https://www.digium.com/training/asterisk/certifications/dcap"
+    },
+    {
+      "name": "Machine Learning for Data Analysis",
+      "issuer": "Coursera",
+      "startDate": "2019-05-31",
+      "url": "https://www.coursera.org/account/accomplishments/verify/GERMZZNACHFL"
+    },
+    {
+      "name": "Audiocurso Aspectos Legales para Startups en Colombia",
+      "issuer": "Platzi",
+      "startDate": "2022-08-31",
+      "url": "https://platzi.com/p/arpagon/curso/2539-aspectos-legales-startups-colombia/diploma/detalle/"
+    },
+    {
+      "name": "Curso de Introducción a los Pagos Electrónicos",
+      "issuer": "Platzi",
+      "startDate": "2021-11-30",
+      "url": "https://platzi.com/p/arpagon/curso/2217-pagos-electronicos/diploma/detalle/"
+    },
+    {
+      "name": "Unconscious Bias",
+      "issuer": "LinkedIn",
+      "startDate": "2022-09-30",
+      "url": "https://www.linkedin.com/learning/certificates/6b5007b50f45d5c1053cfbcc4e3927afed59a11d79a8b705f12eaed2fc5b6fbc"
+    },
+    {
+      "name": "PSP Developer",
+      "issuer": "Software Engineering Institute | Carnegie Mellon University",
+      "startDate": "2014-01-31",
+      "url": "https://www.sei.cmu.edu/education-outreach/credentials/certificate-holders/index.cfm"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Artificial Intelligence (AI)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Web Services (AWS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python (Programming Language)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Sapian",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Prometheus.io",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Switches",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IP PBX",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Voice over IP (VoIP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OpenStack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Site Reliability Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ansible",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Integration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Product Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "DevOps",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Freeswitch",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MariaDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IVR",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kubernetes",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Open Source Software",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TCP/IP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Solution Architecture",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "kamailio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Vision",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "openstack",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Asterisk",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "R",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Open Source",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Telephony",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PSP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VoIP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "TSP",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Telecommunications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Grafana",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Diversity & Inclusion",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Strategy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Unified Communications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Strategic Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Computing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SIP",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Professional Working",
+      "language": "English"
+    },
+    {
+      "fluency": "Native Speaker",
+      "language": "Spanish"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Alberto Llamas",
+      "reference": "I had the pleasure of working with Sebastian for two years at Sapian, during which time he proved himself to be an excellent leader and manager.\n\nSebastian is a highly intelligent and strategic thinker, who is always able to come up with creative solutions to problems. He is also an excellent communicator and motivator.\n\nIn addition to his managerial skills, Sebastian is also an expert in his field. He is constantly keeping up with the latest trends and developments, and is always able to provide valuable insights and perspectives.\n\nI am confident that Sebastian would be an excellent asset to any organization, and I wholeheartedly recommend him for any position he may be interested in."
+    }
+  ],
+  "projects": [
+    {
+      "name": "JOE J.A.R.V.I.S (Just A Rather Very Intelligent System) Online Edition",
+      "startDate": "2021-07-31",
+      "summary": "Joe is a voice assistant designed to democratize this technology.\n\n◼️ How do we democratize Voice Assistant technology?\n\nWe believe that we can make this technology more accessible by allowing technologically obsolete communication systems to access the assistant. The Key to the Issue is that Joe is decoupled from the manufacturers' development APIS. JOE is simply a SIP User Agent that interacts with the customer via Voice and DTMF tones. Imagine it with an additional Phone or an additional Endpoint.\n\nIn Sapian we have a lot of experience developing rich Voice experiences using the development interfaces of Asterisk, Freesiwtch, Twillio among others... But each application requires upgrades (for example to have ARI or AudioSockets). With this we want to reach more places with this technology avoiding this kind of technological barriers.\n\nIt is evident that JOE can also work in the latest technology environments, in fact in these environments it scales much better.",
+      "url": "https://joe.dialbox.cloud/",
+      "endDate": "2022-07-31"
+    },
+    {
+      "name": "slack2matrix Migration",
+      "startDate": "2021-08-31",
+      "summary": "Migrates Users, Channels and all the conversations from a Slack export to Matrix Warning: It’s not recommended to use anything but a fresh/empty Synapse instance for migration\n\nHowever, you can configure it to import the Slack workspace to an empty federated server and use that to effectively migrate rooms to an existing Matrix server via federation. See ‘Federated setup (import to an existing Matrix server)’ below.",
+      "url": "https://slack2matrix.sapian.cloud/",
+      "endDate": "2021-11-30"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}
