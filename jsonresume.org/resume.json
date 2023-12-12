@@ -248,7 +248,7 @@
     {
       "name": "JOE J.A.R.V.I.S (Just A Rather Very Intelligent System) Online Edition",
       "startDate": "2021-07-31",
-      "summary": "Joe is a voice assistant designed to democratize this technology.\n\n◼️ How do we democratize Voice Assistant technology?\n\nWe believe that we can make this technology more accessible by allowing technologically obsolete communication systems to access the assistant. The Key to the Issue is that Joe is decoupled from the manufacturers' development APIS. JOE is simply a SIP User Agent that interacts with the customer via Voice and DTMF tones. Imagine it with an additional Phone or an additional Endpoint.\n\nIn Sapian we have a lot of experience developing rich Voice experiences using the development interfaces of Asterisk, Freesiwtch, Twillio among others... But each application requires upgrades (for example to have ARI or AudioSockets). With this we want to reach more places with this technology avoiding this kind of technological barriers.\n\nIt is evident that JOE can also work in the latest technology environments, in fact in these environments it scales much better.",
+      "summary": "Joe is a voice assistant aimed at democratizing the technology. It operates as a SIP User Agent, interacting via Voice and DTMF tones, and is not tied to manufacturers' development APIs. This allows it to work with both obsolete and latest technology environments.",
       "url": "https://joe.dialbox.cloud/",
       "endDate": "2022-07-31"
     },
