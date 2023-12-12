@@ -172,259 +172,74 @@
   "publications": [],
   "skills": [
     {
-      "name": "Artificial Intelligence (AI)",
-      "level": "",
-      "keywords": []
+      "name": "Linux",
+      "level": "Senior",
+      "keywords": ["Linux"]  
     },
     {
-      "name": "Google Cloud Platform (GCP)",
-      "level": "",
-      "keywords": []
+      "name": "Python",
+      "level": "Senior",
+      "keywords": ["Python"]  
     },
     {
-      "name": "Amazon Web Services (AWS)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python (Programming Language)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Sapian",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Prometheus.io",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Switches",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Technical Leadership",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IP PBX",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Voice over IP (VoIP)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "OpenStack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Site Reliability Engineering",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ansible",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Integration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Product Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "DevOps",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Freeswitch",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MariaDB",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IVR",
-      "level": "",
-      "keywords": []
+      "name": "Python",
+      "level": "Middle",
+      "keywords": ["Javascript","PHP","Perl","Bash"]
     },
     {
       "name": "Kubernetes",
-      "level": "",
-      "keywords": []
+      "level": "Senior",
+      "keywords": ["Kubernetes"]
     },
     {
-      "name": "Open Source Software",
-      "level": "",
-      "keywords": []
+      "name": "Artificial Intelligence",
+      "level": "Senior",
+      "keywords": ["AI"]
     },
     {
-      "name": "TCP/IP",
-      "level": "",
-      "keywords": []
+      "name": "Cloud Services",
+      "level": "Senior",
+      "keywords": ["Google Cloud Platform (GCP)", "Amazon Web Services (AWS)", "Oracle Cloud Infrastructure (OCI)"]
     },
     {
-      "name": "Solution Architecture",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Docker",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Leadership",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MongoDB",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "kamailio",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "IP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Technical Vision",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "openstack",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Asterisk",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "R",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Linux",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Open Source",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Telephony",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PSP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "VoIP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "TSP",
-      "level": "",
-      "keywords": []
+      "name": "Monitoring Tools",
+      "level": "Senior",
+      "keywords": ["Prometheus.io","Grafana", "loki"]
     },
     {
       "name": "Telecommunications",
-      "level": "",
-      "keywords": []
+      "level": "Senior",
+      "keywords": ["Switches", "IP PBX", "Voice over IP (VoIP)", "Cloud Callcenter", "WebRTC"]
     },
     {
-      "name": "Grafana",
-      "level": "",
-      "keywords": []
+      "name": "Site Reliability Engineering",
+      "level": "Senior",
+      "keywords": ["Ansible", "Puppet", "Terraform", "OpenStack", "Docker", "Kubernetes", "KVM", "LXC", "LXD", "k3s", "k8s", "Ceph", "Cilium"]
     },
     {
-      "name": "Diversity & Inclusion",
-      "level": "",
-      "keywords": []
+      "name": "Product Development",
+      "level": "Senior",
+      "keywords": ["Integration"]
     },
     {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
+      "name": "Database Management",
+      "level": "Senior",
+      "keywords": ["MySQL", "PostgreSQL", "Redis"]
     },
     {
       "name": "Business Strategy",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Unified Communications",
-      "level": "",
-      "keywords": []
+      "level": "Senior",
+      "keywords": ["Strategic Planning"]
     },
     {
       "name": "Software Development",
-      "level": "",
-      "keywords": []
+      "level": "Senior",
+      "keywords": ["Unified Communications"]
     },
     {
-      "name": "Strategic Planning",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cloud Computing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SIP",
-      "level": "",
-      "keywords": []
+      "name": "RTC engineering",
+      "level": "Senior",
+      "keywords": ["SIP", "Asterisk", "kamailio", "FreeSWITCH", "WebRTC"]
     }
   ],
   "languages": [
