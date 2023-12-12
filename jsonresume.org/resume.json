@@ -3,13 +3,14 @@
   "basics": {
     "name": "Sebastian Rojo Suarez",
     "label": "Open-Source Machine Learning Engineer, Co-Founder at ArtisanLabs  •  Senior Kubernetes Engineer • Edge Computing • Full Stack Dev • Remote work • Startups • COSS • SaaS",
-    "image": "",
-    "email": "linkedin@arpagon.co",
+    "image": "https://www.gravatar.com/avatar/e545a8c52b03536fd8e83830178d7fb30b14e9f9d952f0411c4043170f5b6498?d=mp&f=y",
+    "email": "resume@arpagon.co",
     "phone": "573105030424",
+    "website": "https://arpagon.co",
     "url": "https://arpagon.co",
     "summary": "Hi, I'm Sebastian Rojo Founder at ArtisanLabs, ex-CTO and co-founder at RisePal, ex-CTO, former owner of Sapian, and founder of startup WunderComm. I'm part of Linux/Open Source revolutions. According to my ability and scope, I was an active player in my city's free software and Linux revolution. Now Linux and open source is state of the art in our technology World. For 15 years, I have created a team that believes in the freedom offered by new technologies, with which we have democratized simple solutions that empower hundreds of companies.\n\nI am passionate about evaluating new open-source technologies. As a result, I can quickly implement, integrate, and interoperate nascent technologies to assess their disruptive capacity and challenge the technological status quo. \n\nAfter 13 years of applying active learning and learning strategies, I have become a generalist CTO with many initiatives, always thinking about Innovation using analytical thinking, complex problem-solving, creativity, and originality.",
     "location": {
-      "countryCode": "US",
+      "countryCode": "CO",
       "address": "Colombia"
     },
     "profiles": [
@@ -28,16 +29,26 @@
   "work": [
     {
       "name": "ArtisanLabs",
-      "position": "Founder",
+      "position": "co-founder, CTO",
       "startDate": "2023-05-31",
-      "highlights": [],
+      "summary": "As a co-founder and CTO of ArtisanLabs, I am leading the development of innovative solutions that leverage Generative AI and Real-Time Communication technologies to revolutionize workplace communication. Our mission is to become 'the Slack for the rest of the world,' addressing the significant gap in real-time communication and leadership tools for the majority of the global workforce. We are focusing on deep product development and fostering deep relationships with users and customers, crucial in the era of generative AI and AGI startups. We are exploring lucrative opportunities in sectors with deskless workforces, such as a CRM-connected Executive Assistant for pharma deskless sales forces and an AI-powered Executive Assistant for General Managers in large workforce operations. Our overarching goal is to become the preferred operating system for large workforces globally.",
+      "highlights": [
+        "Leveraging Generative AI and Langchain to enable complex reasoning and interactions at a fraction of traditional costs, achieving a 150x reduction in costs compared to average coaching expenses.",
+        "Prioritizing voice-enabled real-time conversations, rooted in the belief that verbal communication is the most effective method for learning and teaching, aligning with human evolutionary development.",
+        "Focusing on deep product development (specialization) using technologies like Next.js, Node, Javascript, Python, FastAPI, Supabase, and pgvector, and fostering deep relationships with users and customers, crucial in the era of generative AI startups.",
+        "Developing ultra-specialized use cases paired with simple, direct go-to-market strategies.",
+        "Exploring lucrative opportunities in sectors with deskless workforces, such as a CRM-connected Executive Assistant for pharma deskless sales forces and an AI-powered Executive Assistant for General Managers in large workforce operations."
+      ],
       "url": "https://www.linkedin.com/company/artisanlabsai/"
     },
     {
       "name": "WunderComm",
       "position": "Founder, CEO, CTO",
       "startDate": "2021-11-30",
-      "highlights": [],
+      "highlights": [
+        "WunderComm is a conversation CRM that integrates Matrix, WhatsApp, and AI.",
+        "Designed for easy implementation, particularly beneficial for small businesses."
+      ],
       "summary": "◾ CEO\n\nDefine the desired culture and cultivate it through leadership actions, including setting objectives, strategies, and critical results that prioritize culture-building and designing the organization and its operational processes to support and advance the company's purpose and core values.\n\nResponsible for talent acquisition strategy, especially for C-suite candidates Attracting and recruiting leadership talent, and Sustaining a healthy and productive workplace.\n\n◾ CTO\nTranslate business strategy into an architecture, technology, and roadmap; responsible for building and managing the engineering team, Directly contributing to making the product.",
       "url": "https://www.linkedin.com/company/wundercomm/",
       "location": "Medellín, Antioquia, Colombia"
@@ -47,7 +58,15 @@
       "position": "CTO",
       "startDate": "2023-03-31",
       "endDate": "2023-10-31",
-      "highlights": [],
+      "summary": "As CTO of RisePal, I led the development of Arouse, an AI assistant that transformed the way professionals interacted with opportunities in the tech market. However, the advent of OpenAI's GPTs and Assistants API Beta led to a reevaluation of our approach, as these tools allowed us to replicate months of intensive development in minutes. This experience sparked deep reflections on the value of human work in the era of rapid technological progress and the balance between efficiency and transparency in innovation. Additionally, I was responsible for the deployment and design of the entire infrastructure of RisePal using Kubernetes, GCP, Terraform, FastAPI, and Traefik.",
+      "highlights": [
+        "Developed Arouse, an AI assistant, using advanced AI and machine learning technologies such as Langchain and PgVector.",
+        "Replicated the functionality of Arouse in minutes using OpenAI's GPTs and Assistants API Beta.",
+        "Navigated the challenges of balancing efficiency with transparency and autonomy in the era of consumer AI.",
+        "Released RisePal's accumulated knowledge, integrating it with OpenAI's GPT technology.",
+        "Utilized Nuxt.js for frontend design, creating an intuitive user interface for Arouse.",
+        "Deployed and designed the entire infrastructure of RisePal using Kubernetes, GCP, Terraform, FastAPI, and Traefik."
+      ],
       "url": "https://www.linkedin.com/company/risepal/"
     },
     {
