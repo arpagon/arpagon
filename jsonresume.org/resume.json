@@ -47,7 +47,7 @@
         "WunderComm is a conversation CRM that integrates Matrix, WhatsApp, and AI.",
         "Designed for easy implementation, particularly beneficial for small businesses."
       ],
-      "summary": "◾ CEO\n\nDefine the desired culture and cultivate it through leadership actions, including setting objectives, strategies, and critical results that prioritize culture-building and designing the organization and its operational processes to support and advance the company's purpose and core values.\n\nResponsible for talent acquisition strategy, especially for C-suite candidates Attracting and recruiting leadership talent, and Sustaining a healthy and productive workplace.\n\n◾ CTO\nTranslate business strategy into an architecture, technology, and roadmap; responsible for building and managing the engineering team, Directly contributing to making the product.",
+      "summary": "As CEO, I cultivated a culture through leadership actions and talent acquisition strategies. As CTO, I translated business strategies into technology roadmaps and managed the engineering team.",
       "url": "https://www.linkedin.com/company/wundercomm/",
       "location": "Medellín, Antioquia, Colombia"
     },
@@ -56,7 +56,7 @@
       "position": "CTO",
       "startDate": "2023-03-31",
       "endDate": "2023-10-31",
-      "summary": "As CTO of RisePal, I led the development of Arouse, an AI assistant that transformed the way professionals interacted with opportunities in the tech market. However, the advent of OpenAI's GPTs and Assistants API Beta led to a reevaluation of our approach, as these tools allowed us to replicate months of intensive development in minutes. This experience sparked deep reflections on the value of human work in the era of rapid technological progress and the balance between efficiency and transparency in innovation. Additionally, I was responsible for the deployment and design of the entire infrastructure of RisePal using Kubernetes, GCP, Terraform, FastAPI, and Traefik.",
+      "summary": "As CTO of RisePal, I led the development of Arouse, an AI assistant. I also managed the deployment and design of RisePal's infrastructure using various technologies.",
       "highlights": [
         "Developed Arouse, an AI assistant, using advanced AI and machine learning technologies such as Langchain and PgVector.",
         "Utilized Nuxt.js for frontend design, creating an intuitive user interface for Arouse.",
