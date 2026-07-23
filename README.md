@@ -4,8 +4,6 @@
 
 I'm Sebastián Rojo, CTO and co-founder of [EmiliaVision](https://emiliavision.com). We turn cameras and real-time signals into useful action for frontline teams.
 
-<img alt="15+ years building real-time systems, 5.7K+ GitHub contributions in the last 12 months, 14 international customers, and a customer footprint of more than 500 locations" src="./assets/profile-metrics.svg" width="100%">
-
 ## Building where software meets reality
 
 <img alt="Existing cameras and signals flow through real-time AI and become action for frontline teams" src="./assets/build-flow.svg" width="100%">
