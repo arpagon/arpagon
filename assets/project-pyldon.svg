@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="150" viewBox="0 0 570 150" role="img" aria-labelledby="title desc">
+  <title id="title">pyldon</title><desc id="desc">A container-isolated personal AI assistant.</desc>
+  <rect width="570" height="150" rx="14" fill="#0d1117"/><rect x="1" y="1" width="568" height="148" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace"><circle cx="34" cy="33" r="5" fill="#ff5a5f"/><text x="49" y="40" fill="#f0f6fc" font-size="23" font-weight="700">pyldon</text><text x="34" y="78" fill="#8b949e" font-size="15">A container-isolated personal AI assistant</text><text x="34" y="102" fill="#8b949e" font-size="15">with memory and Matrix I/O.</text><text x="34" y="130" fill="#ff6b70" font-size="12" letter-spacing="1">PYTHON · OPEN SOURCE</text><text x="530" y="91" fill="#f0f6fc" font-size="30">→</text></g>
+</svg>
