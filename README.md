@@ -4,8 +4,6 @@
 
 I'm Sebastián Rojo, CTO and co-founder of [EmiliaVision](https://emiliavision.com). We turn cameras and real-time signals into useful action for frontline teams.
 
-**[We're hiring a Founding Engineer in Colombia →](https://torre.ai/post/xWpKxq6r-emilia-ai-founding-engineer-2)**
-
 <img alt="15+ years building real-time systems, 5.7K+ GitHub contributions in the last 12 months, 14 international customers, and a customer footprint of more than 500 locations" src="./assets/profile-metrics.svg" width="100%">
 
 ## Building where software meets reality
@@ -16,14 +14,14 @@ The physical world is hostile to software: networks disappear, cameras move, har
 
 > **Turn ambiguity into experiments, experiments into shipped systems, and failures into better judgment.**
 
-## The working relationship
+## Operating principles
 
-| What I value | What Emilia offers |
+| Principle | In practice |
 |---|---|
-| High agency and closed loops | Broad, end-to-end ownership |
-| Hacker curiosity with production judgment | Direct access to founders and users |
-| Evidence over prolonged debate | Fast feedback from real systems |
-| Learning velocity over pedigree | Influence over architecture and culture |
+| Start from reality | Solve the user's problem, not the fashionable abstraction |
+| Find the shortest path to evidence | Prototype, instrument, observe, and then harden |
+| Own the complete loop | Problem, code, deployment, operation, and outcome |
+| Move fast with judgment | Speed matters; production is not a casino |
 
 ## Selected builds
 
@@ -39,7 +37,7 @@ The physical world is hostile to software: networks disappear, cameras move, har
 </table>
 
 <details>
-<summary><strong>How I build and the builders I want to work with</strong></summary>
+<summary><strong>A longer note on how I build</strong></summary>
 <br>
 
 I like small teams with high trust, short feedback loops, and end-to-end ownership.
@@ -51,18 +49,16 @@ I like small teams with high trust, short feedback loops, and end-to-end ownersh
 - Move fast without gambling with production.
 - Make failures visible and turn them into better systems.
 
-I care less about a perfect résumé or traditional career path than about what you have built, automated, repaired, reverse-engineered, contributed to, or placed in front of real users.
+I enjoy working with people who are curious enough to inspect the layer below the abstraction, resourceful enough to keep moving when information is incomplete, and responsible enough to know that hacker mindset is not an excuse for reckless engineering.
 
 Before Emilia, I worked on open-source voice AI at [Vocode](https://github.com/vocodedev) and co-founded [Artisan Labs](https://github.com/artisanlabs). I have spent more than 15 years building real-time infrastructure, open-source software, machine learning systems, and products where reliability matters.
 
 </details>
 
-## Build with us
+## Elsewhere
 
-We're looking for a **Founding Engineer in Colombia** to work closely with me across AI, product, edge systems, and infrastructure.
+[Website](https://arpagon.co) · [LinkedIn](https://www.linkedin.com/in/arpagon/) · [X](https://twitter.com/arpagon) · [Email](mailto:arpagon@arpagon.co)
 
-Skip the polished cover letter. Send me a project, prototype, postmortem, automation, or repository you are proud of—and tell me what you learned while building it.
+---
 
-**[Read the role and apply](https://torre.ai/post/xWpKxq6r-emilia-ai-founding-engineer-2)** · [arpagon@arpagon.co](mailto:arpagon@arpagon.co?subject=Founding%20Engineer%20at%20Emilia)
-
-[Website](https://arpagon.co) · [LinkedIn](https://www.linkedin.com/in/arpagon/) · [X](https://twitter.com/arpagon)
+<sub>Emilia is growing. If AI, edge systems, and messy real-world problems sound like your kind of work, <a href="https://torre.ai/post/xWpKxq6r-emilia-ai-founding-engineer-2">take a look at what we're building</a>.</sub>
