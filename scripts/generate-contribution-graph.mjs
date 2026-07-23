@@ -60,14 +60,20 @@ const themes = {
     border: "#30363d",
     text: "#f0f6fc",
     muted: "#8b949e",
-    levels: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"],
+    accent: "#ff6268",
+    top: ["#202833", "#51252a", "#843039", "#c5424b", "#ff6268"],
+    left: ["#11161c", "#35181c", "#572027", "#842c33", "#aa3f45"],
+    right: ["#171e26", "#421e22", "#6c2730", "#a3353e", "#d34b51"],
   },
   light: {
-    background: "#ffffff",
-    border: "#d0d7de",
-    text: "#1f2328",
-    muted: "#656d76",
-    levels: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
+    background: "#fffafa",
+    border: "#d8cfd0",
+    text: "#302a3e",
+    muted: "#736a79",
+    accent: "#ff5258",
+    top: ["#eef1f4", "#ffd8da", "#ffadb1", "#ff7f85", "#ff5258"],
+    left: ["#d7dce2", "#d8afb2", "#d4888d", "#c85e65", "#bb3c43"],
+    right: ["#e2e6eb", "#e9c1c4", "#e99a9f", "#e66e74", "#dc474e"],
   },
 };
 
@@ -79,14 +85,12 @@ const levelIndexes = {
   FOURTH_QUARTILE: 4,
 };
 
-const monthNames = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 const width = 1200;
-const height = 310;
-const chartLeft = 98;
-const chartTop = 92;
-const cellSize = 15;
-const cellGap = 4;
-const cellStep = cellSize + cellGap;
+const height = 480;
+const originX = 150;
+const originY = 170;
+const halfTileWidth = 17;
+const halfTileHeight = 4.5;
 
 function escapeXml(value) {
   return String(value)
@@ -97,57 +101,86 @@ function escapeXml(value) {
     .replaceAll("'", "&apos;");
 }
 
-function render(themeName, theme) {
+function points(...coordinates) {
+  return coordinates.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
+}
+
+function renderBuilding(cell, theme) {
+  const { x, y, day } = cell;
+  const level = levelIndexes[day.contributionLevel] ?? 0;
+  const buildingHeight = day.contributionCount === 0
+    ? 0
+    : Math.min(68, 7 + Math.round(Math.log2(day.contributionCount + 1) * 11));
+  const topY = y - buildingHeight;
+  const noun = day.contributionCount === 1 ? "contribution" : "contributions";
+  const tooltip = `${day.contributionCount} ${noun} on ${escapeXml(day.date)}`;
+
+  const top = points(
+    [x, topY - halfTileHeight],
+    [x + halfTileWidth, topY],
+    [x, topY + halfTileHeight],
+    [x - halfTileWidth, topY],
+  );
+
+  if (buildingHeight === 0) {
+    return `<g><title>${tooltip}</title><polygon points="${top}" fill="${theme.top[0]}" stroke="${theme.border}" stroke-width="0.8"/></g>`;
+  }
+
+  const left = points(
+    [x - halfTileWidth, topY],
+    [x, topY + halfTileHeight],
+    [x, y + halfTileHeight],
+    [x - halfTileWidth, y],
+  );
+  const right = points(
+    [x + halfTileWidth, topY],
+    [x, topY + halfTileHeight],
+    [x, y + halfTileHeight],
+    [x + halfTileWidth, y],
+  );
+
+  return `<g><title>${tooltip}</title><polygon points="${left}" fill="${theme.left[level]}"/><polygon points="${right}" fill="${theme.right[level]}"/><polygon points="${top}" fill="${theme.top[level]}" stroke="${theme.accent}" stroke-opacity="0.28" stroke-width="0.7"/></g>`;
+}
+
+function renderCity(theme) {
   const cells = [];
-  const monthLabels = [];
-  let previousMonth = null;
 
   calendar.weeks.forEach((week, weekIndex) => {
-    const firstDay = week.contributionDays[0];
-    if (firstDay) {
-      const month = Number(firstDay.date.slice(5, 7)) - 1;
-      if (month !== previousMonth) {
-        monthLabels.push({ label: monthNames[month], x: chartLeft + weekIndex * cellStep });
-        previousMonth = month;
-      }
-    }
-
     week.contributionDays.forEach((day) => {
-      const x = chartLeft + weekIndex * cellStep;
-      const y = chartTop + day.weekday * cellStep;
-      const color = theme.levels[levelIndexes[day.contributionLevel] ?? 0];
-      const noun = day.contributionCount === 1 ? "contribution" : "contributions";
-      cells.push(
-        `<rect x="${x}" y="${y}" width="${cellSize}" height="${cellSize}" rx="3" fill="${color}"><title>${day.contributionCount} ${noun} on ${escapeXml(day.date)}</title></rect>`,
-      );
+      cells.push({
+        day,
+        x: originX + (weekIndex - day.weekday) * halfTileWidth,
+        y: originY + (weekIndex + day.weekday) * halfTileHeight,
+      });
     });
   });
 
-  const months = monthLabels
-    .map(({ label, x }) => `<text x="${x}" y="78" fill="${theme.text}" font-size="16">${label}</text>`)
-    .join("");
-
-  const legendX = width - 305;
-  const legendCells = theme.levels
-    .map((color, index) => `<rect x="${legendX + 58 + index * cellStep}" y="266" width="${cellSize}" height="${cellSize}" rx="3" fill="${color}"/>`)
+  cells.sort((left, right) => left.y - right.y || left.x - right.x);
+  const buildings = cells.map((cell) => renderBuilding(cell, theme)).join("");
+  const legendX = 927;
+  const legend = theme.top
+    .map((color, index) => `<polygon points="${points(
+      [legendX + index * 34, 446],
+      [legendX + index * 34 + 12, 452],
+      [legendX + index * 34, 458],
+      [legendX + index * 34 - 12, 452],
+    )}" fill="${color}"/>`)
     .join("");
 
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="title desc">
   <title id="title">${calendar.totalContributions.toLocaleString("en-US")} contributions in the last year</title>
-  <desc id="desc">GitHub contribution calendar for ${escapeXml(login)}, updated automatically.</desc>
+  <desc id="desc">An isometric contribution city for ${escapeXml(login)}, where building height represents daily GitHub activity.</desc>
   <rect width="${width}" height="${height}" rx="18" fill="${theme.background}"/>
   <rect x="1" y="1" width="${width - 2}" height="${height - 2}" rx="17" fill="none" stroke="${theme.border}" stroke-width="2"/>
-  <g font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
-    <text x="32" y="43" fill="${theme.text}" font-size="24" font-weight="600">${calendar.totalContributions.toLocaleString("en-US")} contributions in the last year</text>
-    ${months}
-    <text x="32" y="${chartTop + cellStep + 12}" fill="${theme.text}" font-size="16">Mon</text>
-    <text x="32" y="${chartTop + cellStep * 3 + 12}" fill="${theme.text}" font-size="16">Wed</text>
-    <text x="32" y="${chartTop + cellStep * 5 + 12}" fill="${theme.text}" font-size="16">Fri</text>
-    ${cells.join("")}
-    <text x="32" y="280" fill="${theme.muted}" font-size="15">Built in public · updated daily</text>
-    <text x="${legendX}" y="280" fill="${theme.muted}" font-size="15">Less</text>
-    ${legendCells}
-    <text x="${legendX + 165}" y="280" fill="${theme.muted}" font-size="15">More</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+    <circle cx="35" cy="34" r="5" fill="${theme.accent}"/>
+    <text x="51" y="40" fill="${theme.muted}" font-size="14" letter-spacing="2">CONTRIBUTION CITY / LAST 12 MONTHS</text>
+    <text x="34" y="78" fill="${theme.text}" font-size="29" font-weight="700">${calendar.totalContributions.toLocaleString("en-US")} contributions</text>
+    ${buildings}
+    <text x="34" y="458" fill="${theme.muted}" font-size="14">BUILT IN PUBLIC · UPDATED DAILY</text>
+    <text x="850" y="457" fill="${theme.muted}" font-size="13">LESS</text>
+    ${legend}
+    <text x="1092" y="457" fill="${theme.muted}" font-size="13">MORE</text>
   </g>
 </svg>\n`;
 }
@@ -155,8 +188,8 @@ function render(themeName, theme) {
 await mkdir(outputDirectory, { recursive: true });
 await Promise.all(
   Object.entries(themes).map(([themeName, theme]) =>
-    writeFile(path.join(outputDirectory, `contribution-graph-${themeName}.svg`), render(themeName, theme)),
+    writeFile(path.join(outputDirectory, `contribution-city-${themeName}.svg`), renderCity(theme)),
   ),
 );
 
-console.log(`Generated contribution graphs for ${login}: ${calendar.totalContributions} contributions`);
+console.log(`Generated contribution city for ${login}: ${calendar.totalContributions} contributions`);
