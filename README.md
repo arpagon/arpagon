@@ -4,6 +4,12 @@
 
 I'm Sebastián Rojo, CTO and co-founder of [EmiliaVision](https://emiliavision.com). We turn cameras and real-time signals into useful action for frontline teams.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/contribution-graph-light.svg">
+  <img alt="GitHub contribution calendar, updated daily" src="./assets/contribution-graph-light.svg" width="100%">
+</picture>
+
 ## Building where software meets reality
 
 <img alt="Existing cameras and signals flow through real-time AI and become action for frontline teams" src="./assets/build-flow.svg" width="100%">
